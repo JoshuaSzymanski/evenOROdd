@@ -4,7 +4,7 @@ f = open("a.py","w")
 f.write("num = 0\n")
 f.write("print(\"enter a num:\")\n")
 f.write("num = (int)(input())\n")
-for i in range(900000):
+for i in range(100):
     f.write(f"if  num == {i}:\n")
     if iseven:
         f.write(" print(\"even\")\n")
